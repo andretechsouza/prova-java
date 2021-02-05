@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "1578d90f-54d7-4c43-9d98-9b1e5ccdf5a0",
+		"name": "Teste Endpoints",
+		"description": "Esta é uma collection para testar o endpoint de IMC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "IMC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/confidencecambio/imc?peso=122.60&altura=1.79",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"confidencecambio",
+						"imc"
+					],
+					"query": [
+						{
+							"key": "peso",
+							"value": "122.60"
+						},
+						{
+							"key": "altura",
+							"value": "1.79"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/confidencecambio/clientes/campo?nome=josé soares silva",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"confidencecambio",
+						"clientes",
+						"campo"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "josé soares silva"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gerente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/confidencecambio/gerentes/campo?nome=josé soares silva",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"confidencecambio",
+						"gerentes",
+						"campo"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "josé soares silva"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Robô",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/confidencecambio/robos/campo?nome=josé soares silva",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"confidencecambio",
+						"robos",
+						"campo"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "josé soares silva"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
